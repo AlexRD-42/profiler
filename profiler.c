@@ -4,6 +4,7 @@
 #define num_iter 40
 #define fnc	2
 
+// Switch to enums
 #define fn0 ft_fibonacci
 #define fn1 ft_rfibonacci
 #define fn2
@@ -66,7 +67,7 @@ double get_avg(uint64_t *ptr, uint64_t n)
 
 int main()
 {
-	int32_t i, start, fn_index;
+	uint32_t i, start, fn_index;
 	uint64_t (*results)[num_runs] = malloc(num_runs * fnc * sizeof(uint64_t));
 
 	srand(ns());
