@@ -1,7 +1,7 @@
 #include "profiler.h"
 
 #define num_runs 100
-#define num_iter 40
+#define num_iter 100
 #define fnc	2
 
 // Switch to enums
